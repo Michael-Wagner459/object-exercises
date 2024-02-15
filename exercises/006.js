@@ -23,4 +23,9 @@ Starter Code:
 
 function convertObjectToList(obj) {
   // your code here
+    let smallArray = []
+  for (var key in obj) {   
+     smallArray.push([key, obj[key]])
+    }
+    return smallArray
 }
